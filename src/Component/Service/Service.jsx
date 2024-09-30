@@ -10,15 +10,15 @@ const Service = () => {
       </h1>
 
       {/* Service cards grid under the title */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ml-[64px] mr-[64px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 ml-[64px] mr-[64px] ">
         {serviceCards.map((service) => (
           <div
             key={service.id}
             id={service.id}
-            className="h-[400px] w-full max-w-[400px] bg-tertiary shadow-xl m-6 flex flex-col justify-center items-center text-center"
+            className="h-[400px] w-full max-w-[600px] bg-tertiary shadow-xl m-8 flex flex-col justify-center items-center text-center"
           >
             {/* Icon at the top */}
-            <service.icon size={50} className="text-primary mb-4 " />
+            <service.icon size={70} className="text-primary mb-4 " />
 
             {/* Title and Description */}
             <h1 className="font-bold text-xl mb-2 text-secondary">{service.title}</h1>
