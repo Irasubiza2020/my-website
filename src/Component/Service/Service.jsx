@@ -3,7 +3,7 @@ import serviceCards from "./ServiceCard";
 
 const Service = () => {
   return (
-    <div className="px-4 md:px-16 lg:px-24">
+    <div id="Services" className="px-4 md:px-16 lg:px-24">
       {/* Title for all cards */}
       <h1 className="font-bold text-center text-3xl sm:text-4xl lg:text-5xl text-secondary mt-16 mb-6">
         What can I do for you?

@@ -5,7 +5,7 @@ import { SiTailwindcss, SiPostman, SiMysql } from 'react-icons/si';
 
 const Skills = () => {
   return (
-    <div className='flex flex-col items-center mt-6 px-4 mb-6'>
+    <div  id='Skills'  className='flex flex-col items-center mt-6 px-4 mb-6'>
       <h1 className='text-secondary font-bold text-3xl sm:text-4xl lg:text-5xl text-center mb-9'>Skills & Education</h1>
       
       {/* Skills and Education Cards */}

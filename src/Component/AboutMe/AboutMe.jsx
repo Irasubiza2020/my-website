@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe = () => {
   return (
-    <div className='relative justify-center text-center mt-6 px-4'>
+    <div id='About' className='relative justify-center text-center mt-6 px-4'>
       <h1 className='text-secondary font-bold text-3xl sm:text-4xl lg:text-5xl'>About Me</h1>
       <div className="flex flex-col md:flex-row items-center justify-center md:space-x-8 p-4">
         {/* Image */}

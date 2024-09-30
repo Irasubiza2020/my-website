@@ -11,9 +11,9 @@ const Recent = () => {
     : ProjectDataCard.filter(project => project.category === selectedCategory);
 
   return (
-    <div className='flex flex-col items-center '>
+    <div id='Recent' className='flex flex-col items-center '>
       {/* Title */}
-      <h1 className="font-bold text-center text-3xl sm:text-4xl lg:text-5xl text-secondary mt-16 mb-6">
+      <h1 id='' className="font-bold text-center text-3xl sm:text-4xl lg:text-5xl text-secondary mt-16 mb-6">
         Recent projects worked on
       </h1>
 

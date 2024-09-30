@@ -34,7 +34,7 @@ const Contact = () => {
   return (
     <div className='mt-6 px-4 sm:px-6 lg:px-16'>
       {/* Heading */}
-      <h1 className='text-secondary font-bold text-3xl sm:text-4xl lg:text-5xl text-center'>
+      <h1 id='Contact' className='text-secondary font-bold text-3xl sm:text-4xl lg:text-5xl text-center'>
         Contact Me
       </h1>
       

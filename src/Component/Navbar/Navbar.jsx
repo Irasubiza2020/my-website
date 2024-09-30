@@ -25,12 +25,12 @@ const Navbar = () => {
         {/* Navigation Links */}
         <div className={`absolute md:static top-full left-0 right-0 bg-white md:bg-transparent transition-all duration-300 ease-in-out ${isMenuOpen ? 'block' : 'hidden'} md:block`}>
           <ul className='flex flex-col md:flex-row text-right gap-4 py-4 md:py-0'>
-            <li className='p-5 text-primary font-bold text-xl sm:text-2xl md:text-lg'><a href='#home'>Home</a></li>
-            <li className='p-5  text-secondary font-bold text-xl sm:text-2xl md:text-lg hover:text-primary'><a href='#space'>About Me</a></li>
-            <li className='p-5 text-secondary font-bold text-xl sm:text-2xl md:text-lg hover:text-primary'><a href='#about'>Skills</a></li>
-            <li className='p-5 text-secondary font-bold text-xl sm:text-2xl md:text-lg hover:text-primary'><a href='#contact'>sevices</a></li>
+            <li className='p-5 text-secondary hover:text-primary font-bold text-xl sm:text-2xl md:text-lg'><a href='#home'>Home</a></li>
+            <li className='p-5 text-secondary font-bold text-xl sm:text-2xl md:text-lg hover:text-primary'><a href='#About'>About Me</a></li>
+            <li className='p-5 text-secondary font-bold text-xl sm:text-2xl md:text-lg hover:text-primary'><a href='#Skills'>Skills</a></li>
+            <li className='p-5 text-secondary font-bold text-xl sm:text-2xl md:text-lg hover:text-primary'><a href='#Services'>sevices</a></li>
             <li className='p-5 text-secondary font-bold text-xl sm:text-2xl md:text-lg hover:text-primary'><a href='#about'>Resume</a></li>
-            <li className='p-5 text-secondary font-bold text-xl sm:text-2xl md:text-lg hover:text-primary'><a href='#contact'>Contact Me</a></li>
+            <li className='p-5 text-secondary font-bold text-xl sm:text-2xl md:text-lg hover:text-primary'><a href='#Contact'>Contact Me</a></li>
           </ul>
         </div>
       </div>

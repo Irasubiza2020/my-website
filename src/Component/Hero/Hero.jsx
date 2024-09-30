@@ -8,7 +8,7 @@ const Hero = () => {
       style={{ backgroundImage: `url(${heroImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
       {/* Overlay */}
-      <div className='absolute inset-0 bg-secondary opacity-80 flex flex-col items-center justify-center px-4 sm:px-10'>
+      <div className='absolute inset-0 bg-secondary opacity-75 flex flex-col items-center justify-center px-4 sm:px-10'>
         {/* Hero Heading */}
         <h1 className='text-center  mt-[70px] sm:mt-[150px] lg:mt-[200px] font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white leading-tight ml-16'>
           Elisa Irasubiza || UI/UX Designer & Front-End Developer
@@ -20,11 +20,11 @@ const Hero = () => {
         </p>
 
         {/* Button */}
-        <div className='flex items-center justify-center mt-6 sm:mt-8'>
-          <button className='bg-primary hover:bg-secondary text-white font-semibold py-3 px-6 rounded-md transition-colors duration-300 text-sm sm:text-base lg:text-lg'>
-            Explore My Work
-          </button>
-        </div>
+        <a href="#Recent">
+        <button className='bg-primary hover:bg-secondary text-white font-semibold py-3 px-6 rounded-md transition-colors duration-300 text-sm sm:text-base lg:text-lg mt-12'>
+         Explore My Work
+        </button></a>
+
       </div>
     </div>
   );
