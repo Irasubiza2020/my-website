@@ -22,7 +22,7 @@ const serviceCards = [
     icon:SiFrontendmentor, 
     title: "Frontend Development",
     description:
-      "Provide tailored UI/UX design solutions that enhance user satisfaction through research, wireframing, prototyping, and testing, ensuring intuitive and visually appealing digital experiences..",
+      " Build responsive and interactive web applications using HTML, CSS, and JavaScript frameworks like React, ensuring seamless user experiences and robust performance...",
   },
 ];
 
