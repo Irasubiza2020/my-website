@@ -1,5 +1,5 @@
 // ServiceCard.jsx
-import { SiFrontendmentor } from "react-icons/si"; // Import any other icons you need here
+import { SiFrontendmentor } from "react-icons/si";
 import { SiAltiumdesigner } from "react-icons/si";
 import { FaProductHunt } from "react-icons/fa";
 const serviceCards = [

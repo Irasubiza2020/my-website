@@ -29,13 +29,16 @@ const AboutMe = () => {
       </div>
 
       {/* Buttons */}
+      
       <div className='flex flex-col md:flex-row justify-center mt-8 space-x-0 md:space-x-6'>
+      <a href='#'>
         <button className='font-semibold p-4 mt-6 mb-6 rounded-md bg-primary text-white hover:bg-secondary'>
           Download My Resume
-        </button>
-        <button className='font-semibold p-4 mt-6 mb-6 rounded-md bg-secondary text-white hover:bg-primary'>
-          Let’s Work Together
-        </button>
+        </button></a>
+        <a href='#Contact'>
+        <button  className='font-semibold p-4 mt-6 mb-6 rounded-md bg-secondary text-white hover:bg-primary'>
+          Let’s Work Together 
+        </button></a>
       </div>
     </div>
   );

@@ -9,6 +9,9 @@ import Recent from './Component/RecentCard/Recent'
 import Contact from './Component/Contact/Contact'
 import Footer from './Component/Footer/Footer'
 
+
+
+
 function App() {
  
 
@@ -22,7 +25,9 @@ function App() {
      <Recent/>
      <Contact/>
      <Footer/>
-    
+     
+     
+     
     </>
   )
 }
