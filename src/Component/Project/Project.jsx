@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
 import mockup1 from '../../assets/images/mockup1.png';
-import mockup2 from '../../assets/images/mockup2.png';
+import mockup7 from '../../assets/images/mockup7.jpeg';
 import mockup3 from  '../../assets/images/mockup3.png'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -12,13 +12,13 @@ const CardData = () => [
     id: 1,
     img: mockup1,
     title: 'UI/UX',
-    disc: 'HR and attendance mobile app',
+    disc: 'E-Commerce Mobile App',
   },
   {
     id: 2,
-    img: mockup2,
-    title: 'UI/UX',
-    disc: 'HR and attendance mobile app',
+    img: mockup7,
+    title: 'UI/UX ',
+    disc: 'Innovation Construction Website',
   },
   {
     id: 3,
@@ -73,7 +73,7 @@ const Project = () => {
               />
 
               {/* Overlay section */}
-              <div className='absolute left-0 top-0 w-full h-full bg-secondary/60 opacity-0 group-hover:opacity-100 p-4 backdrop-blur-sm duration-500 flex flex-col items-center justify-center'>
+              <div className='absolute left-0 top-0 w-full h-full bg-secondary/50 opacity-0 group-hover:opacity-100 p-4 backdrop-blur-sm duration-500 flex flex-col items-center justify-center'>
                 {/* Title */}
                 <h2 className='text-white font-bold text-lg text-center mb-2'>
                   {title}
@@ -83,7 +83,7 @@ const Project = () => {
                 <p className='text-white text-sm text-center'>{disc}</p>
 
                 {/* Explore Button */}
-                <button className='mt-4 bg-white text-secondary py-1 px-3 rounded-lg text-sm hover:bg-gray-200 transition'>
+                <button className='mt-4 bg-primary text-white font-bold py-1 px-3 rounded-lg text-sm hover:bg-secondary transition'>
                   Explore
                 </button>
               </div>
