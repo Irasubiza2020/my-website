@@ -1,5 +1,7 @@
 import React from "react";
 import serviceCards from "./ServiceCard"; 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Service = () => {
   return (

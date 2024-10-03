@@ -10,8 +10,8 @@ const Navbar = () => {
         
         {/* Logo and Name Section */}
         <div className="flex items-center gap-2">
-          <img src='../images/logo1.png' className='w-[60px]' alt="Logo" />
-          <h1 className='font-bold text-2xl sm:text-3xl text-secondary'>Irasubiza</h1>
+          <img src='../E.png' className='w-[80px] h-[80px]' alt="Logo" />
+         
         </div>
 
         {/* Hamburger menu for mobile */}

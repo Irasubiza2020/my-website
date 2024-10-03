@@ -5,9 +5,9 @@ import Hero from './Component/Hero/Hero'
 import AboutMe from './Component/AboutMe/AboutMe'
 import Skills from './Component/Skills&Education/Skills'
 import Service from './Component/Service/Service'
-import Recent from './Component/RecentCard/Recent'
 import Contact from './Component/Contact/Contact'
 import Footer from './Component/Footer/Footer'
+import Project from './Component/Project/Project'
 
 
 
@@ -22,7 +22,7 @@ function App() {
      <AboutMe/>
      <Skills/>
      <Service/>
-     <Recent/>
+     <Project/>
      <Contact/>
      <Footer/>
      

@@ -1,4 +1,5 @@
 import React from 'react';
+import Resume from '../../assets/Resume.pdf';
 
 const AboutMe = () => {
   return (
@@ -7,7 +8,7 @@ const AboutMe = () => {
       <div className="flex flex-col md:flex-row items-center justify-center md:space-x-8 p-4">
         {/* Image */}
         <div className="h-[300px] w-[300px] md:h-[400px] md:w-[400px] rounded-full overflow-hidden border-4 shadow-lg mx-auto">
-          <img src="../images/elisa.png" className="w-full h-full object-cover" alt="Elisa" />
+          <img src="../elisa.png" className="w-full h-full object-cover" alt="Elisa" />
         </div>
 
         {/* Paragraph */}
@@ -31,7 +32,7 @@ const AboutMe = () => {
       {/* Buttons */}
       
       <div className='flex flex-col md:flex-row justify-center mt-8 space-x-0 md:space-x-6'>
-      <a href='#'>
+      <a href={Resume} download={Resume}>
         <button className='font-semibold p-4 mt-6 mb-6 rounded-md bg-primary text-white hover:bg-secondary'>
           Download My Resume
         </button></a>
