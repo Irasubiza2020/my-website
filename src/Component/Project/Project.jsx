@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import mockup1 from '../../assets/images/mockup1.png';
 import mockup7 from '../../assets/images/mockup7.jpeg';
 import mockup3 from  '../../assets/images/mockup3.png'
+import mockup6 from '..//../assets/images/mockup6.png'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -26,6 +27,13 @@ const CardData = () => [
     title: 'UI/UX',
     disc: 'HR and attendance mobile app',
   },
+   {
+    id: 4,
+    img: mockup6,
+    title: 'UI/UX',
+    disc: ' Travel App',
+  },
+ 
  
 ];
 

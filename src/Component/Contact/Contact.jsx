@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { MdOutlineEmail  , MdAddIcCall} from "react-icons/md";
 
 const Contact = () => {
   const form = useRef();
@@ -70,8 +71,30 @@ const Contact = () => {
               <p className='font-bold text-white'>Happy Customers</p>
             </div>
           </div>
+          <div className='h-[150px] w-[500px] p-3  mt-4 rounded-lg bg-tertiary shadow-md  items-start '>
+          <div className='flex flex-col items-start space-y-6 ml-16'>
+  <div className='flex items-center space-x-4 '>
+    <MdOutlineEmail size={40} className='text-primary' />
+    <div className='text-left'>
+      <h1 className='font-bold text-secondary'>E-mail</h1>
+      <h2 className='text-secondary'>irasubiza220006142@gmail.com</h2>
+    </div>
+  </div>
+  
+           <div className='flex items-center space-x-4'>
+           <MdAddIcCall size={40} className='text-primary' />
+           <div className='text-left'>
+            <h1 className='font-bold text-secondary'>Phone</h1>
+             <h2 className='text-secondary'>+250787954412</h2>
+               </div>
+               </div>
+             </div>
+
+            </div>
         </div>
+        
       </div>
+      
     </div>
   );
 };
