@@ -10,7 +10,7 @@ const Navbar = () => {
         
         {/* Logo and Name Section */}
         <div className="flex items-center gap-2">
-          <img src='../E.png' className='w-[80px] h-[80px]' alt="Logo" />
+          <img src='../E12.png' className='w-[90px] h-[90px]' alt="Logo" />
          
         </div>
 
