@@ -21,13 +21,13 @@ const Footer = () => {
           </div>
         </a>
 
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <div className='flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-full hover:text-white hover:bg-secondary text-primary'>
+        <a href="https://www.instagram.com/designroots24/profilecard/?igsh=aGtwZnhyb2Zjb2s4" target="_blank" rel="noopener noreferrer">
+        <div className='flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-full hover:text-white hover:bg-secondary text-primary'>
             <FaInstagram className='text-xl sm:text-2xl' />
           </div>
         </a>
 
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/designroots24/profilecard/?igsh=aGtwZnhyb2Zjb2s4" target="_blank" rel="noopener noreferrer">
           <div className='flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-full hover:text-white hover:bg-secondary text-primary'>
             <FaXTwitter className='text-xl sm:text-2xl' />
           </div>
