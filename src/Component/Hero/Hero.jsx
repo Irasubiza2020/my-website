@@ -14,12 +14,12 @@ const Hero = () => {
       {/* Overlay */}
       <div className="absolute inset-0 bg-secondary bg-opacity-85 flex flex-col items-center justify-center px-4 sm:px-10">
         {/* Hero Heading */}
-        <h1 className="text-center mt-[40px] sm:mt-[150px] lg:mt-[200px] font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white leading-tight">
+        <h1 className="text-center mt-[20px] sm:mt-[100px] lg:mt-[150px] font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white leading-tight">
           Elisa Irasubiza || UI/UX Designer & Front-End Developer
         </h1>
 
         {/* Hero Paragraph */}
-        <p className="text-center text-white  sm:mt-8 text-base sm:text-lg md:text-xl lg:text-2xl max-w-4xl leading-relaxed px-6">
+        <p className="text-center text-white sm:mt-6 text-base sm:text-lg md:text-xl lg:text-2xl max-w-4xl leading-relaxed px-6">
           I specialize in creating intuitive user experiences and turning designs into clean, efficient code. 
           With expertise in HTML, CSS, JavaScript, React, and Tailwind CSS, I bring creative ideas to life, 
           ensuring they are functional, responsive, and accessible.
@@ -27,7 +27,7 @@ const Hero = () => {
 
         {/* Button */}
         <a href="#Recent">
-          <button className="bg-primary hover:bg-slate-300 text-white font-semibold py-3 px-6 rounded-md transition-colors duration-300 text-sm sm:text-base lg:text-lg mt-12">
+          <button className="bg-primary hover:bg-slate-300 text-white font-semibold py-3 px-6 rounded-md transition-colors duration-300 text-sm sm:text-base lg:text-lg mt-10">
             Explore My Work
           </button>
         </a>

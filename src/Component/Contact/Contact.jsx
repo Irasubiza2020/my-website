@@ -47,7 +47,7 @@ const Contact = () => {
           <label className="block mb-2 text-lg font-semibold text-secondary">Message</label>
           <textarea name="message" className="border border-secondary rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-secondary w-full" required />
 
-          <input type="submit" value="Send" className="bg-secondary mt-4 text-white rounded-lg p-3 hover:bg-opacity-90 transition duration-300 w-full font-semibold" />
+          <input type="submit" value="Send" className="bg-primary mt-4 text-white rounded-lg p-3 hover:bg-opacity-90 transition duration-300 w-full font-semibold" />
         </form>
 
         {/* Message and stats section */}
