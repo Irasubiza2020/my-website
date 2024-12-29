@@ -1,14 +1,19 @@
 import React from 'react';
 import Resume from '../../assets/Resume.pdf';
+import elisaImage from '../../assets/images/elisa.png'; // Ensure correct import
 
 const AboutMe = () => {
   return (
-    <div id='About' className='relative justify-center text-center mt-6 px-4'>
-      <h1 className='text-secondary font-bold text-3xl sm:text-4xl lg:text-5xl'>About Me</h1>
+    <div id="About" className="relative justify-center text-center mt-6 px-4">
+      <h1 className="text-secondary text-3xl sm:text-4xl lg:text-5xl">About Me</h1>
       <div className="flex flex-col md:flex-row items-center justify-center md:space-x-8 p-4">
         {/* Image */}
         <div className="h-[300px] w-[300px] md:h-[400px] md:w-[400px] rounded-full overflow-hidden border-4 shadow-lg mx-auto">
-          <img src="../elisa.png" className="w-full h-full object-cover" alt="Elisa" />
+          <img
+            src={elisaImage}
+            className="w-full h-full object-cover"
+            alt="Elisa"
+          />
         </div>
 
         {/* Paragraph */}
@@ -30,16 +35,17 @@ const AboutMe = () => {
       </div>
 
       {/* Buttons */}
-      
-      <div className='flex flex-col md:flex-row justify-center mt-8 space-x-0 md:space-x-6'>
-      <a href={Resume} download={Resume}>
-        <button className='font-semibold p-4 mt-6 mb-6 rounded-md bg-primary text-white hover:bg-secondary'>
-          Download My Resume
-        </button></a>
-        <a href='#Contact'>
-        <button  className='font-semibold p-4 mt-6 mb-6 rounded-md bg-secondary text-white hover:bg-primary'>
-          Let’s Work Together 
-        </button></a>
+      <div className="flex flex-col md:flex-row justify-center mt-8 space-x-0 md:space-x-6">
+        <a href={Resume} download>
+          <button className="font-semibold p-4 mt-6 mb-6 rounded-md bg-primary text-white hover:bg-secondary transition">
+            Download My Resume
+          </button>
+        </a>
+        <a href="#Contact">
+          <button className="font-semibold p-4 mt-6 mb-6 rounded-md bg-secondary text-white hover:bg-primary transition">
+            Let’s Work Together
+          </button>
+        </a>
       </div>
     </div>
   );

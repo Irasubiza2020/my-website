@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="h-0.5 bg-primary max-w-full mt-8"></div>
       
       {/* Title */}
-      <h1 className='text-2xl sm:text-3xl lg:text-4xl font-bold text-secondary text-center mt-4'>
+      <h1 className='text-2xl sm:text-3xl lg:text-4xl  text-secondary text-center mt-4'>
         Let's Stay Connected
       </h1>   
 
@@ -38,7 +38,7 @@ const Footer = () => {
       <div className="h-0.5 bg-primary max-w-full mt-4 mb-6"></div>
 
       {/* Copyright Text */}
-      <h1 className='text-center text-secondary text-sm sm:text-base lg:text-lg mb-2'>
+      <h1 className='text-center text-secondary text-sm sm:text-base lg:text-lg mb-2 '>
         © 2024 Elisa Irasubiza. All Rights Reserved
       </h1>
     </div>
